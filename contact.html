@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Contact Us - Outdoor &amp; Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get in touch with Outdoor and Adventure. Reach out to our team for travel assistance, booking inquiries, or destination recommendations.">
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/site.css">
+	  
+	<link rel="preload"
+      as="image"
+      href="images/contact1920.jpg"
+      imagesrcset="images/contact640.jpg 640w, images/contact1280.jpg 1280w, images/contact1920.jpg 1920w"
+      imagesizes="100vw">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container d-flex align-items-center justify-content-start gap-4 py-3">
+        <a class="brand d-flex align-items-center" href="index.html" aria-label="Outdoor and Adventure home">
+          <img src="images/full-outdoor-logo.png"
+           alt="Outdoor & Adventure logo with mountain icon and tagline."
+           width="55" height="55" class="logo">
+        </a>
+
+        <nav class="main-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+          <ul id="menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+<section class="hero" aria-label="Contact intro">
+  <div class="container content" style="position: relative; z-index: 3;">
+    <h1 class="script-headline">Have an Adventure</h1>
+    <p class="lead">
+      Questions about dates, difficulty, or what to pack? Our team is happy to help you plan the right adventure.
+    </p>
+  </div>
+  <div class="hero-carousel" data-interval="999999" aria-roledescription="carousel">
+    <div class="stage">
+      <figure class="hero-slide is-active">
+        <img
+          src="images/contact1920.jpg"
+          srcset="
+            images/contact640.jpg 640w,
+            images/contact1280.jpg 1280w,
+            images/contact1920.jpg 1920w
+          "
+          sizes="100vw"
+          alt="Round eyeglasses placed on a world map with sunlight casting soft shadows."
+          decoding="sync"
+          style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+
+      
+      <div class="hero-gradient" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Main content -->
+    <main class="container content my-5">
+
+      <!-- Contact methods  -->
+      <section class="mb-5" aria-labelledby="contact-info">
+        <h2 id="contact-info">Contact Information</h2>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <address>
+              <strong>Outdoor &amp; Adventure</strong><br>
+              100 Summit Way, Suite 12<br>
+              Boulder, CO 80302
+            </address>
+
+            <p class="mb-2"><strong>Email:</strong>
+              <a href="mailto:outdoorandadventure@info.com">outdoorandadventure@info.com</a>
+            </p>
+            <p class="mb-3"><strong>Phone:</strong>
+              <a href="tel:1234567890">123-456-7890</a>
+            </p>
+
+            <h3 class="h5">Office Hours</h3>
+            <ul class="trip-facts">
+              <li>Mon–Fri: 9:00 am–6:00 pm</li>
+              <li>Sat: 10:00 am–4:00 pm</li>
+              <li>Sun: Closed</li>
+            </ul>
+
+            <p class="muted">If you’re currently on a trip and need assistance, please call the main number above and select “Guest Support.”</p>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="h5">You can find us at:</h3>
+            
+            
+<a href="https://share.google/dbcnBWkYezj4LgMzn" target="_blank" rel="noopener">
+  <img 
+    class="map-image"
+    src="images/hq1920.jpg"
+    srcset="
+      images/hq640.jpg   640w,
+      images/hq1280.jpg 1280w,
+      images/hq1920.jpg 1920w
+    "
+    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 70vw, 1100px"
+    alt="Outdoor & Adventure headquarters, a modern wood-and-glass building surrounded by trees with mountain views in the background."
+    width="1920" height="1280"
+    loading="lazy"
+    decoding="async"
+    style="width:100%;height:auto;border-radius:.8rem;">
+</a>
+
+            <figcaption class="caption mt-2">We’re located near trailheads and outfitters to make planning easy.</figcaption>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact form -->
+      <section class="mb-5" aria-labelledby="contact-form-heading">
+        <h2 id="contact-form-heading">Send us a message</h2>
+        <p>Tell us a bit about your plans and we’ll reply within one business day.</p>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="" selected disabled>Choose a topic</option>
+            <option value="booking">Booking / Availability</option>
+            <option value="difficulty">Route Difficulty</option>
+            <option value="gear">Gear &amp; Packing</option>
+            <option value="other">Other</option>
+          </select>
+
+          <fieldset style="border:0; padding:0; margin-top:1rem;">
+            <legend class="mb-1" style="font-weight:600;">Preferred contact method</legend>
+            <label style="display:inline-flex; align-items:center; gap:.5rem; margin-right:1rem;">
+              <input type="radio" name="contactpref" value="email" checked> Email
+            </label>
+            <label style="display:inline-flex; align-items:center; gap:.5rem;">
+              <input type="radio" name="contactpref" value="phone"> Phone
+            </label>
+          </fieldset>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-accent mt-2" type="submit">Send</button>
+
+          <!-- simple success feedback area -->
+          <p id="formStatus" class="muted" role="status" aria-live="polite" style="margin-top:.5rem;"></p>
+        </form>
+      </section>
+
+      <!-- FAQ -->
+      <section class="mb-5" aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions</h2>
+        <details>
+          <summary>What fitness level do I need?</summary>
+          <p>Most guests walk 4–7 miles a day with moderate elevation. We’ll help you choose the right itinerary.</p>
+        </details>
+		  
+        <details>
+          <summary>What should I pack?</summary>
+          <p>Layered clothing, waterproof jacket, broken-in footwear, a daypack, and 1–2L of water. We provide a detailed checklist after booking.</p>
+        </details>
+		  
+        <details>
+          <summary>Are trips refundable?</summary>
+          <p>Trips are refundable up to 30 days before departure. See your confirmation for full terms.</p>
+        </details>
+		  
+		 <details>
+  <summary>Do I need prior experience?</summary>
+  <p>No prior hiking or kayaking experience is required for most trips. Your guide will review safety basics and pacing before each activity.</p>
+</details>
+		  
+<details>
+  <summary>What’s included in the price?</summary>
+  <p>Guiding, lodging, ground transportation, and most meals are included. Flights and personal gear are not included unless noted otherwise.</p>
+</details>
+		  
+<details>
+  <summary>Can I travel solo?</summary>
+  <p>Absolutely! Many guests join alone. We’ll match you with a same-gender roommate or offer a private room upgrade if available.</p>
+</details>
+		  
+<details>
+  <summary>How large are the groups?</summary>
+  <p>We keep our trips small — typically 8 to 10 guests per guide — so everyone gets personal attention and plenty of space on the trail.</p>
+</details>
+		  
+<details>
+  <summary>Are meals provided?</summary>
+  <p>Yes, most trips include all breakfasts, trail lunches, and hearty dinners. We can accommodate vegetarian, vegan, and gluten-free requests with advance notice.</p>
+</details>
+		  
+<details>
+  <summary>Is travel insurance required?</summary>
+  <p>We strongly recommend travel insurance to cover cancellations, delays, and medical emergencies. Some destinations require proof of coverage.</p>
+</details>
+		  
+<details>
+  <summary>How do I prepare for my trip?</summary>
+  <p>Once booked, we’ll send a detailed training and packing guide. Light cardio and walking a few miles each week will help you feel comfortable on the trail.</p>
+</details>
+      </section>
+
+      <!-- Travel tips -->
+      <section class="mb-4" aria-labelledby="tips">
+        <h2 id="tips">Travel tips</h2>
+        <ul>
+          <li>Break in shoes at least two weeks ahead of your trip.</li>
+          <li>Keep rain gear at the top of your pack.</li>
+          <li>Pack a soft bottle for hot springs days and a compact towel.</li>
+		  <li>Roll clothes instead of folding to save space and reduce wrinkles.</li>
+<li>Bring a portable charger and keep it fully charged before travel days.</li>
+<li>Take photos of your passport and ID in case of loss or theft.</li>
+<li>Pack a small first-aid kit with pain relievers, bandages, and motion sickness tablets.</li>
+<li>Wear your bulkiest items (like boots or a jacket) on travel days to save space.</li>
+<li>Label your gear with your name and contact info in case it gets misplaced.</li>
+<li>Keep snacks like nuts or granola bars handy for long travel days.</li>
+<li>Download offline maps and translations before leaving Wi-Fi zones.</li>
+<li>Carry a reusable water bottle and refill it after airport security.</li>
+<li>Pack a spare outfit and essentials in your carry-on, just in case your luggage is delayed.</li>
+        </ul>
+      </section>
+    </main>
+
+<!-- Back to Top button -->
+<button id="backToTop" aria-label="Back to top">↑ Top</button>
+	  
+	  
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container content" style="text-align:center; padding:1rem;">
+        <p><strong>Contact us:</strong>
+          <a href="tel:1234567890">123-456-7890</a> ·
+          <a href="mailto:outdoorandadventure@info.com">outdoorandadventure@info.com</a>
+        </p>
+
+        <!-- Social icons -->
+        <div class="social-links" style="justify-content:center; margin-top:.5rem;">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img src="images/facebook.png" alt="Facebook" width="32" height="32">
+          </a>
+          <a href="https://x.com" target="_blank" aria-label="X (Twitter)">
+            <img src="images/x.png" alt="X (Twitter)" width="32" height="32">
+          </a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+            <img src="images/tiktok.png" alt="TikTok" width="32" height="32">
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <img src="images/ig.png" alt="Instagram" width="32" height="32">
+          </a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <img src="images/youtube.png" alt="YouTube" width="32" height="32">
+          </a>
+        </div>
+
+        <p class="muted" style="margin-top:.5rem;">© <span id="year"></span> Outdoor &amp; Adventure. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+		
+      
+      (function(){
+        const btn = document.querySelector('.nav-toggle');
+        const menu = document.getElementById('menu');
+        if (btn && menu) {
+          btn.addEventListener('click', function(){
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', String(!expanded));
+            menu.classList.toggle('open');
+          });
+        }
+      })();
+
+     
+      (function(){
+        var y = document.getElementById('year');
+        if (y) { y.textContent = new Date().getFullYear(); }
+      })();
+
+      
+      (function(){
+        var form = document.querySelector('.contact-form');
+        var status = document.getElementById('formStatus');
+        if (!form || !status) return;
+        form.addEventListener('submit', function(e){
+          e.preventDefault();
+          status.textContent = 'Thanks! Your message has been sent.';
+        });
+      })();
+    </script>
+	  
+	<script>
+  const backToTop = document.getElementById('backToTop');
+
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTop.classList.add('show');
+    } else {
+      backToTop.classList.remove('show');
+    }
+  });
+
+ 
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+  </body>
+</html>
+
