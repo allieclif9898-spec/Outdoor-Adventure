@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Home - Outdoor &amp; Adventure</title>
+
+    
+    <meta name="author" content="Allison Bryant">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore unforgettable outdoor adventures with Outdoor and Adventure. Small-group hiking, kayaking, and multi-day trips guided by certified experts.">
+    <meta name="keywords" content="outdoor adventures, adventure travel, hiking tours, kayaking trips, nature excursions, camping trips, group tours, Outdoor and Adventure, explore the outdoors">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/site.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+  <div class="container d-flex align-items-center justify-content-start gap-4 py-3">
+    <a class="brand d-flex align-items-center" href="index.html" aria-label="Outdoor and Adventure home">
+      <img src="images/full-outdoor-logo.png"
+           alt="Outdoor & Adventure logo with mountain icon and tagline."
+           width="55" height="55" class="logo">
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Hero -->
+<section class="hero" aria-label="Featured destinations">
+  <div class="container content" style="position: relative; z-index: 3;">
+    <h1 class="script-headline">Have an Adventure</h1>
+    <p class="lead">
+      We plan and guide trips that balance challenge with comfort. Choose a quick weekend escape or a weeklong trek. Our guides are certified, friendly, and focused on safety.
+    </p>
+	  
+	  <div class="center-btn">
+    <a href="destinations.html" class="btn-accent">Explore Destinations</a>
+  </div>
+	</div>
+
+  <!-- Carousel -->
+  <div class="hero-carousel" data-interval="300000" aria-roledescription="carousel">
+    
+    <div class="stage">
+		
+      <!-- slide 1 -->
+      <figure class="hero-slide is-active"> 
+        <img src="images/road1920.jpg"
+  srcset="
+    images/road640.jpg   640w,
+    images/road1280.jpg 1280w,
+    images/road1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Winding road stretching through a wide autumn-colored valley with dramatic mountains rising in the background under cloudy skies."
+  decoding="sync"
+  style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+
+      <!-- slide 2 -->
+      <figure class="hero-slide">
+        <img src="images/town1920.jpg"
+  srcset="
+    images/town640.jpg   640w,
+    images/town1280.jpg 1280w,
+    images/town1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Whitewashed cliffside buildings of Santorini glowing at sunset with deep blue sky and sea in the background."
+  loading="lazy"
+  decoding="async"
+  style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+
+      <!-- slide 3 -->
+      <figure class="hero-slide">
+        <img src="images/hut1920.jpg"
+  srcset="
+    images/hut640.jpg   640w,
+    images/hut1280.jpg 1280w,
+    images/hut1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Wooden boardwalk leading to overwater bungalows surrounded by bright turquoise water at a tropical island resort under a clear blue sky."
+  loading="lazy"
+  decoding="async"
+  style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+		
+	  <!-- slide 4 -->
+      <figure class="hero-slide">
+        <img src="images/river1920.jpg"
+  srcset="
+    images/river640.jpg   640w,
+    images/river1280.jpg 1280w,
+    images/river1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Row of colorful Scandinavian-style waterfront houses reflecting on calm water at sunset."
+  loading="lazy"
+  decoding="async"
+  style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+
+	  <!-- slide 5 -->
+      <figure class="hero-slide">
+        <img src="images/sunset1920.jpg"
+  srcset="
+    images/sunset640.jpg   640w,
+    images/sunset1280.jpg 1280w,
+    images/sunset1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Golden sunset over the ocean with waves washing onto the shore and a long wooden pier stretching into the water."
+  loading="lazy"
+  decoding="async"
+  style="width:100%;height:auto;border-radius:.8rem;">
+      </figure>
+		
+      <!-- soft gradient for readability -->
+      <div class="hero-gradient" aria-hidden="true"></div>
+
+      <!-- controls  -->
+      <button class="hero-ctrl prev" aria-label="Previous slide">‹</button>
+      <button class="hero-ctrl next" aria-label="Next slide">›</button>
+    </div>
+
+    <!-- dots for slide selection -->
+    <ol class="hero-dots" role="tablist" aria-label="Choose slide">
+      <li><button type="button" role="tab" aria-selected="true" aria-current="true" aria-label="Slide 1"></button></li>
+      <li><button type="button" role="tab" aria-label="Slide 2"></button></li>
+      <li><button type="button" role="tab" aria-label="Slide 3"></button></li>
+	  <li><button type="button" role="tab" aria-label="Slide 4"></button></li>
+	  <li><button type="button" role="tab" aria-label="Slide 5"></button></li>
+    </ol>
+  </div>
+</section>
+
+
+    <!-- Main content -->
+    <main class="container content my-5">
+
+      <!-- Featured Trip -->
+      <section aria-labelledby="contact-info">
+        <h2 id="contact-info">Featured Trip</h2>
+
+        <!-- Main highlighted trip: New Zealand -->
+        <article class="card" style="margin-bottom:1rem;">
+          <img src="images/nz-card1920.jpg"                          
+  srcset="
+    images/nz-card640.jpg   640w,
+    images/nz-card1280.jpg 1280w,
+    images/nz-card1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 70vw, 1100px"
+  alt="Glass-walled cliffside restaurant overlooking a deep blue lake, forested islands, and rugged mountain ranges in New Zealand."
+  style="width:100%;height:auto;border-radius:.8rem;"
+  loading:="lazy"
+  decoding="async">
+          <div style="margin-top:.75rem;">
+            <h3>South Island Trek, New Zealand</h3>
+            <p class="muted caption">7 days, Oct through Apr, Moderate</p>
+            <p class="bio-text">Glaciers, alpine lakes, and coastal tracks. Small groups and local guides, lodging that keeps you rested and ready.</p>
+            <a href="destinations.html#new-zealand" class="btn-accent">See Trip Details</a>
+          </div>
+        </article>
+
+        <!-- Two smaller destination cards side by side -->
+		  <!-- card 1 -->
+        <ul class="card-grid">
+          <li class="card">
+            <img
+  src="images/utah1920.jpg" 
+  srcset="
+    images/utah640.jpg 640w,
+    images/utah1280.jpg 1280w,
+    images/utah1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 45vw, 420px"
+  alt="Expansive view of red rock formations, hoodoos, and evergreen trees in a desert canyon landscape under a clear sky."
+  style="width:100%;height:auto;border-radius:.6rem;"
+  loading:="lazy"
+  decoding="async">
+            <h4>Southwest Canyons, USA</h4>
+            <p class="muted caption">4 days, Mar through Jun, Easy to Moderate</p>
+            <a href="destinations.html#southwest" class="btn-accent">View Southwest</a>
+          </li>
+			
+			 <!-- card 2 -->
+          <li class="card">
+            <img
+  src="images/kayak1920.jpg"
+  srcset="
+    images/kayak640.jpg 640w,
+    images/kayak1280.jpg 1280w,
+    images/kayak1920.jpg 1920w
+  "
+  sizes="(max-width: 600px) 100vw, 
+		 (max-width: 1200px) 45vw, 420px"
+  alt="View from a kayak on a calm river bordered by mangroves on one side and waterfront homes with docks on the other under a bright blue sky."
+  style="width:100%;height:auto;border-radius:.6rem;"
+  loading:="lazy"
+  decoding="async">
+
+            <h4>Coastal Kayak Weekend</h4>
+            <p class="muted caption">3 days, May through Sep, Moderate</p>
+            <a href="destinations.html#coastal-kayak" class="btn-accent">View Kayak Trip</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Why choose us -->
+      <section class="mt-5" aria-labelledby="contact-info">
+        <h2 class="contact-info">Why Choose Outdoor &amp; Adventure</h2>
+        <ul class="trip-facts">
+          <li><strong>Certified guides</strong>, safety first and always.</li>
+          <li><strong>Small groups</strong>, more time on the trail and the water.</li>
+          <li><strong>Thoughtful lodging</strong>, rest well between big days.</li>
+        </ul>
+        <a href="about.html" class="btn-accent">Learn More About Us</a>
+      </section>
+
+      <!-- Events promo 1 -->
+      <section class="mt-5" aria-labelledby="contact-info">
+        <h2 class="contact-info">Upcoming Events</h2>
+        <ul class="card-grid">
+          <li class="card">
+            <h2 class="contact-info">Info Night, Trek New Zealand</h2>
+            <p class="muted caption">Jan 22, 7 pm, online</p>
+            <p>Meet a lead guide and preview the route, gear tips, and training plan.</p>
+            <a href="#" class="btn-accent" aria-label="Learn more about Info Night Trek New Zealand">Learn More</a>
+          </li>
+			
+			<!-- Events promo 2 -->
+          <li class="card">
+            <h2 class="contact-info">Gear Check Workshop</h2>
+            <p class="muted caption">Feb 10, 6 pm, local shop</p>
+            <p>Dial in layers, boots, and packs. Bring your kit for a quick fit check.</p>
+            <a href="#" class="btn-accent" aria-label="Learn more about Gear Check Workshop">Learn More</a>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+	  
+	  <!-- Back to Top button -->
+<button id="backToTop" aria-label="Back to top">↑ Top</button>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container content" style="text-align:center; padding:1rem;">
+        <p><strong>Contact us:</strong>
+          <a href="tel:1234567890">123-456-7890</a> ·
+          <a href="mailto:outdoorandadventure@info.com">outdoorandadventure@info.com</a>
+        </p>
+
+        <!-- Social icons -->
+        <div class="social-links" style="justify-content:center; margin-top:.5rem;">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img src="images/facebook.png" alt="Facebook" width="32" height="32">
+          </a>
+          <a href="https://x.com" target="_blank" aria-label="X (Twitter)">
+            <img src="images/x.png" alt="X (Twitter)" width="32" height="32">
+          </a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+            <img src="images/tiktok.png" alt="TikTok" width="32" height="32">
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <img src="images/ig.png" alt="Instagram" width="32" height="32">
+          </a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <img src="images/youtube.png" alt="YouTube" width="32" height="32">
+          </a>
+        </div>
+
+        <p class="muted" style="margin-top:.5rem;">© <span id="year"></span> Outdoor &amp; Adventure. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile nav toggle
+      const btn = document.querySelector('.nav-toggle');
+      const menu = document.getElementById('menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          menu.classList.toggle('open');
+        });
+      }
+      // Year
+      const yearEl = document.getElementById('year');
+      if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+    </script>
+
+    <!-- ===== Signup Modal: opens on first visit ===== -->
+    <div class="oa-overlay" id="oaOverlay" hidden></div>
+
+    <div class="oa-modal" id="oaModal" role="dialog" aria-modal="true"
+         aria-labelledby="oaModalTitle" aria-describedby="oaModalDesc" hidden>
+      <button class="oa-close" id="oaClose" aria-label="Close dialog">×</button>
+
+      <h2 id="oaModalTitle" class="oa-title">Discover Your Next Adventure</h2>
+      <p id="oaModalDesc" class="oa-sub">Sign up and tell us what you like.</p>
+
+      <form class="oa-form" action="#" method="post" novalidate>
+        <div class="oa-row">
+          <label class="oa-field">
+            <span>First name*</span>
+            <input type="text" name="firstName" required>
+          </label>
+          <label class="oa-field">
+            <span>Last name*</span>
+            <input type="text" name="lastName" required>
+          </label>
+        </div>
+
+        <label class="oa-field">
+          <span>Email*</span>
+          <input type="email" name="email" required>
+        </label>
+
+        <fieldset class="oa-prefs">
+          <legend>Your travel preferences</legend>
+          <label><input type="checkbox" name="pref" value="biking"> Biking</label>
+          <label><input type="checkbox" name="pref" value="hiking"> Hiking &amp; Walking</label>
+          <label><input type="checkbox" name="pref" value="multi"> Multi-Adventure</label>
+        </fieldset>
+
+        <button type="submit" class="oa-btn" id="oaSubmit" disabled>Sign up</button>
+
+        <p class="oa-legal">
+          By sharing your email address, you agree to our
+          <a href="#">Privacy Policy</a>.
+        </p>
+      </form>
+    </div>
+
+    <script>
+      // ===== Modal open-on-first-visit (per tab) =====
+      (function () {
+        const modal = document.getElementById('oaModal');
+        const overlay = document.getElementById('oaOverlay');
+        const closeBtn = document.getElementById('oaClose');
+        const submitBtn = document.getElementById('oaSubmit');
+        const form = document.querySelector('.oa-form');
+
+        if (!sessionStorage.getItem('oaModalShown')) {
+          openModal();
+          sessionStorage.setItem('oaModalShown', '1');
+        }
+
+        function openModal() {
+          modal.hidden = false;
+          overlay.hidden = false;
+          document.body.classList.add('oa-no-scroll');
+          const firstInput = modal.querySelector('input');
+          firstInput && firstInput.focus();
+        }
+        function closeModal() {
+          modal.hidden = true;
+          overlay.hidden = true;
+          document.body.classList.remove('oa-no-scroll');
+        }
+
+        overlay.addEventListener('click', closeModal);
+        closeBtn.addEventListener('click', closeModal);
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && !modal.hidden) closeModal();
+        });
+
+        form.addEventListener('input', () => {
+          const first = form.querySelector('input[name="firstName"]').value.trim();
+          const last  = form.querySelector('input[name="lastName"]').value.trim();
+          const email = form.querySelector('input[type="email"]').value.trim();
+          submitBtn.disabled = !(first && last && email);
+        });
+
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          closeModal();
+          alert('Thanks! You’re on the list.');
+        });
+      })();
+    </script>
+	  
+<script>
+  // ===== Back to Top button behavior =====
+  const backToTop = document.getElementById('backToTop');
+
+  // Show when scrolled down 400px
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTop.classList.add('show');
+    } else {
+      backToTop.classList.remove('show');
+    }
+  });
+
+  // Smooth scroll to top
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+	
+<script>
+/*
+  Simple Hero Carousel
+  - Auto advances every data-interval ms (default 300000 = 5 minutes)
+  - Pauses while the page/tab is hidden
+  - Click dots or prev/next to change slides
+*/
+(function(){
+  const wrap = document.querySelector('.hero-carousel');
+  if(!wrap) return;
+
+  const slides = Array.from(wrap.querySelectorAll('.hero-slide'));           // all slide elements
+  const dots   = Array.from(wrap.querySelectorAll('.hero-dots button'));     // dot buttons
+  const prev   = wrap.querySelector('.hero-ctrl.prev');                       // prev arrow
+  const next   = wrap.querySelector('.hero-ctrl.next');                       // next arrow
+  const interval = Number(wrap.dataset.interval) || 300000;                   // timing: 300000ms = 5 min
+  // For testing fast: change to 5000 (5 seconds), then switch back to 300000.
+
+  let i = slides.findIndex(s => s.classList.contains('is-active'));           // current index
+  if (i < 0) i = 0;
+
+  let timer = start();
+
+  function start(){
+    return setInterval(() => go(i + 1), interval);                            // auto-advance
+  }
+  function stop(){
+    clearInterval(timer);
+  }
+
+  function go(n){
+    // wrap index
+    const to = (n + slides.length) % slides.length;
+
+    // update slides
+    slides[i].classList.remove('is-active');
+    slides[to].classList.add('is-active');
+
+    // update dots (aria for accessibility)
+    if (dots[i]) {
+      dots[i].removeAttribute('aria-current');
+      dots[i].setAttribute('aria-selected','false');
+    }
+    if (dots[to]) {
+      dots[to].setAttribute('aria-current','true');
+      dots[to].setAttribute('aria-selected','true');
+    }
+
+    i = to;
+  }
+
+  // Dot clicks
+  dots.forEach((btn, idx) => {
+    btn.addEventListener('click', () => {
+      stop(); go(idx); timer = start();                                       // jump, then resume auto
+    });
+  });
+
+  // Prev/Next
+  prev && prev.addEventListener('click', () => { stop(); go(i - 1); timer = start(); });
+  next && next.addEventListener('click', () => { stop(); go(i + 1); timer = start(); });
+
+  // Pause when tab not visible (saves battery, avoids skipping)
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stop(); else { timer = start(); }
+  });
+
+  // Optional: keyboard support when carousel is focused
+  wrap.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft')  { stop(); go(i - 1); timer = start(); }
+    if (e.key === 'ArrowRight') { stop(); go(i + 1); timer = start(); }
+  });
+})();
+</script>
+
+	  
+	  
+  </body>
+</html>
